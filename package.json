@@ -1,0 +1,17 @@
+{
+  "name": "employeedetails",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test" : "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha --reporter"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "ejs": "*",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
